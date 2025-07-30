@@ -4,9 +4,7 @@
 ### Table of Contents
 - [About Me](#about-me)
 - [Education](#education)
-- [Projects](#projects)
-  - [Immigration](#immigration)
-  - [Larceny](#larceny)
+
 
 ### About Me
 
@@ -20,9 +18,3 @@ I have experience using Python, SQL, and Excel to explore data, uncover patterns
 *Graduated May 2025*
 - Minor in Mathematics
 - Key coursework: Machine Learning, Data Science and Analytics, Computer Science Foundations, Statistical Methods
-
-### Projects
-
-#### **Immigration**
-
-#### **Larceny**
