@@ -42,20 +42,24 @@ I have experience using Python, SQL, and Excel to explore data, uncover patterns
 
 ### Projects
 
-#### Immigrant Integration Trends Analysis  
-*Python, scikit-learn, PCA, Clustering*  
+#### Immigrant Integration Trends Analysis 
+*Python, scikit-learn, PCA, K-Means, DBSCAN, ACS Data*  
 
-- Analyzed 10+ years of ACS data, uncovering population growth (750K → 1.15M) and degree attainment rise (18% → 23%).  
-- Applied PCA and clustering to identify three distinct phases of integration: pre-pandemic, pandemic disruption, and post-pandemic cohesion.  
-- Validated clustering quality (silhouette score: 0.63), confirming distinct assimilation phases.  
-- Delivered insights through visualizations and reports, highlighting immigrant educational attainment growth and post-COVID assimilation patterns.  
+• Analyzed 12 years of U.S. Census ACS data (2012–2023) tracking a foreign-born population that grew from ∼750K to
+1.15M; cleaned and merged annual datasets across standardized demographic, education, and employment features.
+• Applied PCA for dimensionality reduction and ran both K-Means and DBSCAN clustering to surface three distinct
+immigrant assimilation phases: pre-pandemic stability, COVID-19 disruption, and post-pandemic cohesion.
+• Validated clustering quality with silhouette score of 0.63 and elbow method; DBSCAN independently flagged 2020–2021
+as statistical outliers, confirming pandemic-driven disruption in integration patterns. 
 
 ---
 
 #### Crime Prediction with Machine Learning  
-*Python, Pandas, scikit-learn, Data Visualization*  
+*Python, scikit-learn, Pandas, Data Visualization*  
 
-- Processed data from 2,215 U.S. cities, reducing 147 features to 13 key socioeconomic variables.  
-- Identified top predictors: unemployment (+0.29) and income (–0.45) as drivers of larceny rates.  
-- Compared multiple models; Random Forest delivered 81.9% accuracy and reduced errors by 38% compared to CART.  
-- Designed visual dashboards with feature-importance charts to inform policy-oriented stakeholder discussions.  
+• Processed a 147-feature dataset spanning 2,215 U.S. cities; reduced to 13 relevant socioeconomic and demographic
+features through correlation analysis and domain-driven feature selection.
+• Benchmarked four models (Logistic Regression, Linear Regression, Naive Bayes, CART, Random Forest); Random Forest
+achieved 81.9% classification accuracy—38% lower MAE than CART—with robust cross-validated performance.
+• Used feature importance and correlation analysis to identify unemployment and income as the strongest predictors of
+larceny rates.
